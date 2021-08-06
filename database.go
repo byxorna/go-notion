@@ -250,6 +250,7 @@ const (
 	// Database property type enums.
 	DBPropTypeTitle          DatabasePropertyType = "title"
 	DBPropTypeRichText       DatabasePropertyType = "rich_text"
+	DBPropTypeText           DatabasePropertyType = "text"
 	DBPropTypeNumber         DatabasePropertyType = "number"
 	DBPropTypeSelect         DatabasePropertyType = "select"
 	DBPropTypeMultiSelect    DatabasePropertyType = "multi_select"

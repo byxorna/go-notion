@@ -85,7 +85,7 @@ func (prop DatabasePageProperty) Value() interface{} {
 	switch prop.Type {
 	case DBPropTypeTitle:
 		return prop.Title
-	case DBPropTypeRichText:
+	case DBPropTypeRichText, DBPropTypeText:
 		return prop.RichText
 	case DBPropTypeNumber:
 		return prop.Number
